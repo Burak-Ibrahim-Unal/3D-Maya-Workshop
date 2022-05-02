@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
-//Name: bas2.ma
-//Last modified: Mon, May 02, 2022 07:22:23 PM
+//Name: bas3.ma
+//Last modified: Mon, May 02, 2022 07:22:27 PM
 //Codeset: 1252
 requires maya "2022";
 currentUnit -l centimeter -a degree -t film;
@@ -9,7 +9,7 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202110272215-ad32f8f1e6";
 fileInfo "osv" "Windows 10 Home Single Language v2009 (Build: 19044)";
-fileInfo "UUID" "37B8E4C4-4A19-ECF1-6DFF-789FA1145458";
+fileInfo "UUID" "0392CE18-4EA0-B264-DEC6-1EA21A147C1B";
 createNode transform -s -n "persp";
 	rename -uid "380D738D-414F-B6F0-5699-9787077F0408";
 	setAttr ".v" no;
@@ -14960,4 +14960,4 @@ connectAttr "Pencere_Onu95Shape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "Pencere_Onu96Shape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "Pencere_Onu97Shape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "Pencere_Onu98Shape.iog" ":initialShadingGroup.dsm" -na;
-// End of bas2.ma
+// End of bas3.ma
